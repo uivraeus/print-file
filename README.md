@@ -35,6 +35,8 @@ Published image on GitHub Container Registry: `ghcr.io/uivraeus/print-file:lates
 docker run --rm -v "$PWD/README.md:/README.md" ghcr.io/uivraeus/print-file:latest /README.md
 ```
 
+For information on automated builds, CI/CD, and release procedures, see [RELEASE.md](RELEASE.md).
+
 ## Development & Usage (Docker-based)
 
 ### Build OCI Image

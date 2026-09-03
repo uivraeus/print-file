@@ -29,6 +29,12 @@ Error handling:
 
 This tool is packaged into an OCI image (without anything else in it). This allows for easy integration into Kubernetes Pods where OCI images can be mounted as Volumes directly.
 
+Published image on GitHub Container Registry: `ghcr.io/uivraeus/print-file:latest`
+
+```bash
+docker run --rm -v "$PWD/README.md:/README.md" ghcr.io/uivraeus/print-file:latest /README.md
+```
+
 ## Development & Usage (Docker-based)
 
 ### Build OCI Image
